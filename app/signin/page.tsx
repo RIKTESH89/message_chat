@@ -23,7 +23,7 @@ export default function Signin() {
                 <Heading>Sign in</Heading>
                 <SubHeading>Enter your Credentials to access your account</SubHeading>
                 <InputComponentLikeFirstName name={'Username'} placeholder={'Username'} onChange={function(e){setUsername(e.target.value)}}/>
-                <InputComponentLikeFirstName name={'Password'} placeholder={'Password' }onChange={function(e){setPassword(e.target.value)}}/>
+                <InputComponentLikeFirstName name={'Password'} placeholder={'123456789'}onChange={function(e){setPassword(e.target.value)}}/>
                 <SignButton onClick={async () => {
                       const res = await signIn("credentials", {
                         username : username,

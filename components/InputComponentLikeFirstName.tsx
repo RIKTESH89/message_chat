@@ -13,7 +13,7 @@ export function InputComponentLikeFirstName({ name, placeholder, onChange }: Inp
             <input
                 onChange={onChange}
                 className="p-4 border-black shadow w-full"
-                type="text"
+                type="password"
                 placeholder={placeholder}
             />
         </div>

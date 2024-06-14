@@ -30,7 +30,7 @@ export default function Signup(){
                 <div className="bg-gray-100 rounded-lg text-center mx-4 mb-16">
                     <Heading>Sign up</Heading>
                     <SubHeading>Enter your Credentials to access your account</SubHeading>
-                    <InputComponentLikeFirstName onChange={function(e){setUserName(e.target.value)}} name={"Username"} placeholder={"Riktesh"}></InputComponentLikeFirstName>
+                    <InputComponentLikeFirstName onChange={function(e){setUserName(e.target.value)}} name={"Username"} placeholder={"Username"}></InputComponentLikeFirstName>
                     <InputComponentLikeFirstName onChange={function(e){setemail(e.target.value)}} name={"Email"} placeholder={"random@gmail.com"}></InputComponentLikeFirstName>
                     <InputComponentLikeFirstName onChange={function(e){setPassword(e.target.value)}} name={"Password"} placeholder={"123456789"}></InputComponentLikeFirstName>
                     <SignButton onClick={async function(){
